@@ -1,0 +1,175 @@
+Create a modern dark-themed frontend UI for a cybersecurity learning platform called “Hacking Vidya.”
+Use React + TailwindCSS (frontend only, no backend or database).
+The site should look professional, futuristic, and hacker-inspired — similar in vibe to Hack The Box or TryHackMe — with glowing neon green accents and smooth motion effects.
+
+You may also add creative UI ideas, animations, or improvements that fit the hacker theme (e.g. terminal effects, neon particle backgrounds, micro-interactions, cool hover transitions).
+
+🎨 Overall Design
+
+Theme: dark cyber aesthetic
+
+Background: #0A0A0A → #121212
+
+Accent color: #44D62C (neon green glow)
+
+Fonts: Inter / Poppins / JetBrains Mono
+
+Rounded corners, frosted-glass panels, glowing outlines
+
+Smooth transitions and responsive layout (desktop + mobile)
+
+🧭 Frontend Pages (User Side)
+1. Home (/)
+
+Hero: “Level Up Your Hacking Skills” with subtext and two buttons
+
+Start Learning (glowing gradient)
+
+Login (ghost neon outline)
+
+Right side: hacker animation or terminal typing effect
+
+Sections:
+
+Features (3 glowing cards: CTF Challenges | Write-ups | Blogs)
+
+How It Works (3-step icons: Sign Up → Play CTFs → Grow & Compete)
+
+Community Stats (animated counters)
+
+Testimonials (glowing quote cards)
+
+Footer: About | FAQ | Contact | Privacy | Discord | GitHub
+
+2. Login (/login) & Register (/register)
+
+Centered frosted-glass card with neon borders
+
+Inputs: Email/Username, Password (+ Confirm Password for register)
+
+Buttons: Login / Register / Forgot Password link
+
+3. Dashboard (/dashboard)
+
+Neon-styled cards for XP, Rank, Streak
+
+Grid: New Rooms, Recently Played Rooms, Community Activity
+
+Small animated chart (dummy data)
+
+4. CTFs
+
+List (/ctfs) → grid of CTF cards with filters (Easy/Medium/Hard)
+
+Detail (/ctf/:id) → title, description, creator, metadata, join/reset buttons, sidebar for hints/questions
+
+5. Blogs
+
+List (/blogs) → searchable/filterable blog list
+
+Detail (/blog/:id) → title, author, date, content with code-block styling, Like / Comment / Share / Save buttons
+
+6. Write-ups
+
+List (/writeups) → browse + filter by category or popularity
+
+Detail (/writeup/:id) → markdown-styled page with hacker-themed syntax highlighting
+
+7. Leaderboard (/leaderboard)
+
+Table with Rank, Username, XP, Completed Rooms
+
+Top 3 users highlighted with glowing badges
+
+8. Hall of Fame (/halloffame)
+
+List of users who reported valid bugs
+
+Avatar, name, bug title, reward badge
+
+9. Profile (/profile)
+
+Avatar, bio, XP bar, rank, streak chart
+
+Tabs: Completed Rooms | Blogs | Write-ups
+
+Edit → Settings (/settings)
+
+10. Settings (/settings)
+
+Edit profile info, change password, social links
+
+Toggle: 2FA, theme mode
+
+11. Static Pages
+
+FAQ (/faq) → Accordion Q&A
+
+Contact (/contact) → form + Discord link
+
+Privacy (/privacy) → static text
+
+🧠 Admin Panel UI (/admin/*)
+
+Use the same neon hacker style with a sidebar layout.
+
+Dashboard (/admin/dashboard) → cards showing Total Users, Active Users, Reports, Hall of Fame Entries, System Load (dummy graph)
+
+Reports (/admin/reports) → table of bug reports with Approve/Reject/Delete buttons
+
+Hall of Fame (/admin/halloffame) → manage entries displayed on public page
+
+Users (/admin/users) → table with Username, Email, Status; actions: Send Warning (modal), Ban, Unban
+
+Profile (/admin/profile) → admin info + activity log
+
+Settings (/admin/settings) → change admin info, password, UI theme
+
+🧩 UI Components
+
+Responsive Navbar (dynamic links based on login/admin)
+
+Footer (centered glowing divider)
+
+Buttons (Primary = glow, Secondary = ghost)
+
+Input fields (neon border, dark bg)
+
+Modals (for edits/warnings)
+
+Cards (feature, stats, blog, write-up)
+
+Charts (dummy Recharts data)
+
+Smooth page-transition animations
+
+⚙️ Implementation Details
+
+Framework: React (Vite preferred)
+
+Styling: Tailwind CSS
+
+Routing: React Router v6
+
+Icons: Lucide-react or Heroicons
+
+Animation: Framer Motion (optional)
+
+Use dummy JSON data for content (blogs, CTFs, users, reports)
+
+✅ Deliverables
+
+Fully responsive React + Tailwind frontend
+
+Includes both User and Admin sections
+
+Consistent dark hacker theme across all pages
+
+Uses mock data and modular components
+
+Visually polished and ready for backend integration later
+
+You can add extra creative touches like loading animations, particle effects, neon gradients, or small terminal widgets if they enhance the hacker vibe
+
+Goal:
+Deliver a professional, hacker-style frontend-only project for Hacking Vidya with immersive UI, fluid UX, and scalable structure suitable for later MERN integration.
